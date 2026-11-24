@@ -15,7 +15,7 @@ A responsive, minimalist academic website built with plain HTML, CSS, and JavaSc
 2. Replace the ORCID, Google Scholar, ADS, and GitHub profile links with your own profile URLs.
 3. Check the publication details, year, author list, journal status, DOI, ADS, and arXiv links. The site currently includes two entries based on the information available; verify them before publishing.
 4. Add your CV PDF as `assets/Mahdi_Abdollahi_CV.pdf`.
-5. If desired, add a portrait. The current design uses a CSS astronomy illustration, so no image is required.
+5. The profile portrait is included as `assets/mahdi.png`. To replace it, upload another image using the same filename and path.
 6. Review the biography and project descriptions and edit anything that does not match your preferred public profile.
 
 ## Publish with GitHub Pages
