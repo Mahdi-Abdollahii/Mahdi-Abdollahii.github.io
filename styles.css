@@ -1,5 +1,6 @@
 /* Mahdi Abdollahi academic website — minimal, responsive, and dependency-light */
 :root {
+  color-scheme: light;
   --ink: #172536;
   --muted: #647386;
   --blue: #315f8c;
@@ -118,4 +119,59 @@ code { padding: 2px 5px; border-radius: 3px; background: #e9eef3; font-size: .9e
   .contact-links a { flex-direction: column; gap: 2px; }
   .contact-links a strong { text-align: left; }
   .footer-inner { flex-direction: column; gap: 4px; }
+}
+
+
+/* Theme switch */
+.nav-tools { display: flex; align-items: center; gap: 10px; }
+.theme-toggle {
+  width: 36px; height: 36px; display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line); border-radius: 50%; background: var(--white); color: var(--ink);
+  cursor: pointer; font: inherit; transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+.theme-toggle:hover { border-color: var(--blue); transform: translateY(-1px); }
+.theme-icon { font-size: 19px; line-height: 1; }
+body.dark-theme {
+  color-scheme: dark;
+  --ink: #e8eef5;
+  --muted: #a7b5c4;
+  --blue: #91b9df;
+  --blue-dark: #b5d2ed;
+  --line: #2d3c4d;
+  --soft: #141e2a;
+  --white: #101923;
+  background: var(--white);
+  color: var(--ink);
+}
+body.dark-theme .site-header { background: rgba(16,25,35,.94); border-bottom-color: var(--line); }
+body.dark-theme .main-nav a,
+body.dark-theme .hero-subtitle,
+body.dark-theme .hero-intro,
+body.dark-theme .narrow p:not(.eyebrow):not(.lead):not(.small-note),
+body.dark-theme .section-intro,
+body.dark-theme .research-card p,
+body.dark-theme .project-item p,
+body.dark-theme .cv-panel p:not(.eyebrow):not(.small-note),
+body.dark-theme .pub-authors { color: #b0bdca; }
+body.dark-theme .hero-card { background: linear-gradient(155deg, #182534 0%, #121d29 100%); border-color: var(--line); }
+body.dark-theme .orbit-art { background: radial-gradient(circle at 50% 50%, #263c51 0, #1a2a3a 48%, #142130 78%); }
+body.dark-theme .planet { background: radial-gradient(circle at 32% 28%, #c2d8eb, #527ba0 72%); }
+body.dark-theme .card-label,
+body.dark-theme .interest-list li,
+body.dark-theme .card-foot,
+body.dark-theme .pub-year,
+body.dark-theme .pub-details,
+body.dark-theme .small-note { color: #9cabb9; }
+body.dark-theme .research-card { background: #182431; border-color: var(--line); }
+body.dark-theme .tag,
+body.dark-theme .project-keywords { color: #91b9df !important; }
+body.dark-theme .link-placeholder { color: #8291a0; }
+body.dark-theme .button-outline { color: #a9c9e7; border-color: #526b82; }
+body.dark-theme .button-outline:hover { background: #1a2938; }
+body.dark-theme .contact-links a { color: var(--ink); }
+body.dark-theme .site-footer { border-top-color: var(--line); color: #9cabb9; }
+body.dark-theme code { background: #263545; color: #e8eef5; }
+body.dark-theme .menu-toggle { background: #182431; border-color: var(--line); color: var(--ink); }
+@media (max-width: 760px) {
+  body.dark-theme .main-nav { background: #101923; border-bottom-color: var(--line); }
 }
