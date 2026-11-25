@@ -65,7 +65,7 @@ h1 span { color: var(--blue); }
 h2 { margin-bottom: 22px; font-family: var(--serif); font-size: clamp(34px, 4vw, 45px); line-height: 1.15; letter-spacing: -.035em; font-weight: 500; }
 h3 { margin-bottom: 9px; font-size: 16px; line-height: 1.45; font-weight: 700; letter-spacing: -.015em; }
 .narrow p:not(.eyebrow):not(.lead):not(.small-note) { color: #596879; }
-.lead { color: #34485e; font-family: var(--serif); font-size: 23px; line-height: 1.5; }
+.lead { color: #34485e; font-family: var(--serif); font-size: 23px; line-height: 1.5; justify;}
 .small-note { margin-top: 22px; color: #8b96a3; font-size: 11px; line-height: 1.65; }
 .section-intro { max-width: 650px; margin-bottom: 38px; color: #647386; }
 .research-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
