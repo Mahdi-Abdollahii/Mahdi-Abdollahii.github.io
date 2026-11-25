@@ -32,7 +32,7 @@ a:hover { color: var(--blue-dark); }
 .section-soft { background: var(--soft); }
 .hero { padding: 105px 0 92px; }
 .hero-grid { display: grid; grid-template-columns: minmax(0, 1.5fr) minmax(270px, .75fr); gap: 58px; align-items: center; }
-.hero-main { display: grid; grid-template-columns: 300px minmax(0, 1fr); align-items: start; gap: 28px; }
+.hero-main { display: grid; grid-template-columns: 200px minmax(0, 1fr); align-items: start; gap: 28px; }
 .profile-photo { width: 200px; height: 200px; min-width: 200px; aspect-ratio: 1; overflow: hidden; border-radius: 12px; border: 1px solid var(--line); box-shadow: 0 12px 32px rgba(26,51,76,.10); }
 .profile-photo img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 30%; }
 .eyebrow { margin: 0 0 18px; color: var(--blue); font-size: 10px; font-weight: 700; letter-spacing: .19em; }
