@@ -41,7 +41,7 @@ h1 { margin-bottom: 13px; font-family: var(--serif); font-size: clamp(48px, 6.5v
 h1 span { color: var(--blue); }
 .hero-subtitle { color: #526174; font-size: 17px; font-weight: 600; margin-bottom: 22px; }
 .hero-intro { max-width: 650px; color: #536275; font-size: 16px; line-height: 1.9; text-align: justify;}
-.hero-about { max-width: 1000px; color: #536275; font-size: 16px; line-height: 1.9; text-align: justify;}
+.hero-about { max-width: 1100px; color: #536275; font-size: 16px; line-height: 1.9; text-align: justify;}
 .hero-actions { display: flex; align-items: center; gap: 25px; margin: 29px 0 35px; }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; border-radius: 5px; padding: 12px 18px; font-size: 12px; font-weight: 700; transition: .2s ease; }
 .button-primary { color: white; background: var(--blue); border: 1px solid var(--blue); }
